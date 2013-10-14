@@ -1,0 +1,30 @@
+#include<conio.h>
+#include<iostream.h>
+void main()
+{
+clrscr();
+int censtar,p,bs,r;
+r=1;
+censtar=40;
+while(r<=23)
+{
+bs=1;
+while(bs<=censtar)
+{
+cout<<" ";
+bs++;
+}
+p=1;
+while(p<=r)
+{
+cout<<"";
+p++;
+}
+cout<<"\n";
+r++;
+censtar--;
+}
+cout<<"\t\t    This Program is created by Prateek Dubey.";
+
+getch();
+}
